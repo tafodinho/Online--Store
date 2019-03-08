@@ -1,6 +1,6 @@
 .main-nav {
     color: white;
-    width: 86%;
+    width: 71%;
     overflow: hidden;
     border-radius: 5px;
     background: black url(http://images.apple.com/global/nav/images/globalheader.png) repeat-x;
@@ -29,9 +29,9 @@ margin: 0;
 
 }
 .middle-section {
-    background: url(../images/background.jpg) 30% 614px;
+    background: url(../images/background.jpg) 50% 100% no-repeat;
     height: 614px;
-    width: 60%;
+    width: 75%;
     margin-top: -8px;
 }
 input {
