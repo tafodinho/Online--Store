@@ -3,14 +3,19 @@
     color: white;
     width: 50%;
     overflow: hidden;
+    border-radius: 5px;
 }
 .main-nav ul li{
     display: table-cell;
     float: left;
     width: 11%;
+    background: url(http://images.apple.com/global/nav/images/globalheader.png) repeat-x;
 }
 .search {
     display: block;
     float: left;
     width: 11%;
+}
+.apple {
+
 }
