@@ -5,6 +5,11 @@
     overflow: hidden;
 }
 .main-nav ul li{
+    display: table-cell;
+    float: left;
+    width: 11%;
+}
+.search {
     display: block;
     float: left;
     width: 11%;
