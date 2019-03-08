@@ -1,6 +1,6 @@
 .main-nav {
     color: white;
-    width: 50%;
+    width: 86%;
     overflow: hidden;
     border-radius: 5px;
     background: black url(http://images.apple.com/global/nav/images/globalheader.png) repeat-x;
@@ -18,7 +18,7 @@ margin: 0;
 .main-nav ul li{
     display: table-cell;
     float: left;
-    width: 14%;
+    width: 12%;
 }
 .search {
     display: block;
@@ -32,9 +32,15 @@ margin: 0;
     background: url(../images/background.jpg) 30% 614px;
     height: 614px;
     width: 60%;
+    margin-top: -8px;
 }
 input {
     border-radius: 14px;
-    /* background: url(http://images.apple.com/global/nav/images/globalheader.png) repeat-x; */
+    background: url(http://images.apple.com/global/nav/images/globalheader.png) repeat-x;
     width: 100%
+}
+.search-icon {
+    background: url(../images/search.svg);
+    width: 12px;
+    height: 12px;
 }
