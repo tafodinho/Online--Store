@@ -1,8 +1,11 @@
 .main-nav {
     background: black;
     color: white;
-    width: 50%
+    width: 50%;
+    overflow: hidden;
 }
 .main-nav ul li{
-    display: inline
+    display: block;
+    float: left;
+    width: 11%;
 }
