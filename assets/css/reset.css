@@ -1,3 +1,6 @@
-.main-nav {
-    margin: 0 auto
+.main-nav,
+.middle-section,
+ul {
+    margin: 0 auto;
+
 }
