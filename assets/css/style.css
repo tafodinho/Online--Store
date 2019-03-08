@@ -1,10 +1,14 @@
 .main-nav {
     color: white;
-    width: 71%;
+    width: 53%;
     overflow: hidden;
     border-radius: 5px;
     background: black url(http://images.apple.com/global/nav/images/globalheader.png) repeat-x;
-    padding: 7px 5px 7px 5px
+    padding: 7px 5px 7px 5px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 45px
 }
 .main-nav .logo {
     background: url(../images/apple.svg) no-repeat;
@@ -32,7 +36,7 @@ margin: 0;
     background: url(../images/background.jpg) 50% 100% no-repeat;
     height: 614px;
     width: 75%;
-    margin-top: -8px;
+    margin-top: -20px;
 }
 input {
     border-radius: 14px;
