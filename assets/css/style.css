@@ -40,21 +40,14 @@ input {
     margin-left: 103%;
 }
 .search-icon {
-    background: url(../images/search.svg);
-    filter: invert(100%) sepia(9%) saturate(242%) hue-rotate(245deg) brightness(119%) contrast(100%);
+    background: url(../images/magnifying-glass.svg);
     width: 12px;
     height: 12px;
-}
-.svg-img{
-   
-    width: 16px;
-    margin-bottom: -20.5%;
-    margin-left: 6.2%;
 }
 .inline{
     display: inline
 }
-.bottom-section{
+.center{
   display: flex;
   justify-content: center;
 }
