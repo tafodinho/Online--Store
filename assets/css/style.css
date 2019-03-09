@@ -4,7 +4,7 @@
     overflow: hidden;
     border-radius: 5px;
     background: black url(http://images.apple.com/global/nav/images/globalheader.png) repeat-x;
-    padding: 7px 5px 7px 5px;
+    padding: 7px 5px 5px 5px;
     position: absolute;
     right: 0;
     left: 0;
@@ -22,11 +22,6 @@ margin: 0;
 .main-nav ul li{
     display: table-cell;
     float: left;
-    width: 12%;
-}
-.search {
-    display: block;
-    float: left;
     width: 11%;
 }
 .apple {
@@ -35,16 +30,31 @@ margin: 0;
 .middle-section {
     background: url(../images/background.jpg) 50% 100% no-repeat;
     height: 614px;
-    width: 75%;
+    width: 100%;
     margin-top: -20px;
 }
 input {
     border-radius: 14px;
     background: url(http://images.apple.com/global/nav/images/globalheader.png) repeat-x;
-    width: 100%
+    width: 100%;
+    margin-left: 103%;
 }
 .search-icon {
     background: url(../images/search.svg);
+    filter: invert(100%) sepia(9%) saturate(242%) hue-rotate(245deg) brightness(119%) contrast(100%);
     width: 12px;
     height: 12px;
+}
+.svg-img{
+   
+    width: 16px;
+    margin-bottom: -20.5%;
+    margin-left: 6.2%;
+}
+.inline{
+    display: inline
+}
+.bottom-section{
+  display: flex;
+  justify-content: center;
 }
