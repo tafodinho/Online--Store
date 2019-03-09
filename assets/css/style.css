@@ -24,14 +24,16 @@ margin: 0;
     float: left;
     width: 11%;
 }
-.apple {
-
+.bottom-img {
+    margin-right: .1%;
 }
 .middle-section {
     background: url(../images/background.jpg) 50% 100% no-repeat;
+    background-size: 77.1%;
     height: 614px;
     width: 100%;
     margin-top: -20px;
+    margin-bottom: .3%;
 }
 input {
     border-radius: 14px;
