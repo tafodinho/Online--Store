@@ -62,3 +62,24 @@ input {
 .footer{
     text-align: center;
 }
+.words{
+ text-align: center;
+ margin-top: 10%;
+}
+.white{
+    color: white;
+}
+.verse{
+    font-family: 'Roboto Mono';
+    font-size: 44px;
+    font-weight: 50;
+}
+.link{
+    text-decoration: nono;
+}
+.svg-img{
+    filter: invert(100%) sepia(1%) saturate(593%) hue-rotate(207deg) brightness(121%) contrast(100%);
+}
+.vertical{
+    vertical-align: middle;
+}
