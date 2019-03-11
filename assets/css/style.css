@@ -27,6 +27,10 @@ margin: 0;
 .bottom-img {
     margin-right: .1%;
 }
+.responsive{
+    width: 100%;
+    height: auto;
+}
 .middle-section {
     background: url(../images/background.jpg) 50% 100% no-repeat;
     background-size: 77.1%;
@@ -34,6 +38,10 @@ margin: 0;
     width: 100%;
     margin-top: -20px;
     margin-bottom: .3%;
+}
+.bottom-section{
+    margin: 0 auto;
+    width:77.1%;
 }
 input {
     border-radius: 14px;
@@ -74,10 +82,10 @@ input {
 }
 .verse{
     font-size: 44px;
-    font-weight: 50;
+    font-weight: 100;
 }
 .link{
-    text-decoration: nono;
+    text-decoration: none;
 }
 .svg-img{
     filter: invert(100%) sepia(1%) saturate(593%) hue-rotate(207deg) brightness(121%) contrast(100%);
