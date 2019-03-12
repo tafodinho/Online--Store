@@ -1,9 +1,9 @@
-body{
+html{
     height: 100vh;
 }
 .main-nav {
     color: white;
-    width: 53%;
+    width: 51%;
     overflow: hidden;
     border-radius: 5px;
     background: black url(http://images.apple.com/global/nav/images/globalheader.png) repeat-x;
@@ -11,7 +11,7 @@ body{
     position: absolute;
     right: 0;
     left: 0;
-    top: 45px
+    top: 20px;
 }
 .main-nav .logo {
     background: url(../images/apple.svg) no-repeat;
@@ -39,8 +39,8 @@ margin: 0;
     background-size: 75%;
     height: 614px;
     width: 100%;
-    margin-top: -20px;
-    margin-bottom: .3%;
+    margin-top: -86px;
+    margin-bottom: 0.1%;
 }
 .bottom-section{
     margin: 0 auto;
@@ -78,7 +78,7 @@ input {
 }
 .words{
  text-align: center;
- margin-top: 10%;
+ margin-top: 15%;
 }
 .white{
     color: white;
