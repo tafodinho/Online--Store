@@ -1,4 +1,6 @@
-
+body{
+    height: 100vh;
+}
 .main-nav {
     color: white;
     width: 53%;
@@ -25,21 +27,24 @@ margin: 0;
     float: left;
     width: 11%;
 }
+.bottom-img {
+    width: 100%;
+}
 .responsive{
     width: 100%;
     height: auto;
 }
 .middle-section {
     background: url(../images/background.jpg) 50% 100% no-repeat;
-    background-size: 76%;
+    background-size: 75%;
     height: 614px;
-    width: 100vw;
+    width: 100%;
     margin-top: -20px;
     margin-bottom: .3%;
 }
 .bottom-section{
     margin: 0 auto;
-    width: 100vw;
+    width:75%;
 }
 input {
     border-radius: 14px;
