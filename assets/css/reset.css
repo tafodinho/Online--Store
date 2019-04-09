@@ -1,0 +1,16 @@
+.main-nav,
+.middle-section,
+ul {
+    margin: 0 auto;
+
+}
+body{
+    padding:0;
+    margin:0;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+ }
